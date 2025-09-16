@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kayque Saldanha | WDD 130</title>
     <meta name="description"
         content="Kayque Saldanha, WDD 130 student at BYU-Idaho. Home page project with HTML and CSS enhancements. Recife, Brazil.">
@@ -19,31 +19,47 @@
         <nav>
             <a href="#">Home</a>
             <a href="wwr">Rafting Website</a>
+            <!-- W03: links externos -->
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
         </nav>
     </header>
 
-    <!-- grid's layout -->
-    <div class="grid-container">
-        <main>
-            <h1>Kayque Saldanha | WDD 130</h1>
-            <img src="images/profile.png" alt="Kayque Saldanha">
-            <p>Brazil is the largest country in South America, known for its rich culture, diverse landscapes, and
-                vibrant cities. It is home to the Amazon rainforest, beautiful beaches, and a population that values
-                music, football, and tradition.</p>
-        </main>
-        <aside>
+    <main>
+        <h1>Kayque Saldanha | WDD 130</h1>
+
+        <!-- W03: aside com classe .box -->
+        <aside class="box">
             <h2>Brasil</h2>
-            <img src="images/brasil_card.jpg" alt="A beautiful view of Rio de Janeiro">
-            <p>Brazil is the largest country in South America, known for its rich culture, diverse landscapes, and
-                vibrant cities. It is home to the Amazon rainforest, beautiful beaches, and a population that values
-                music, football, and tradition.</p>
+            <img src="images/brasil_card.jpg" alt="A beautiful view of Brazil">
+            <p>
+                Brazil is the largest country in South America, known for its rich culture,
+                diverse landscapes, and vibrant cities. It is home to the Amazon rainforest,
+                beautiful beaches, and a population that values music, football, and tradition.
+            </p>
         </aside>
-    </div>
+
+        <img src="images/profile.png" alt="Kayque Saldanha" width="200">
+        <p>
+            Brazil is the largest country in South America, known for its rich culture, diverse landscapes, and
+            vibrant cities. It is home to the Amazon rainforest, beautiful beaches, and a population that values
+            music, football, and tradition.
+        </p>
+
+        <!-- W03: lista de templos dentro do main, com classe .box -->
+        <ul class="box">
+            <li><a href="https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng" target="_blank"
+                    rel="noopener">Rome Italy Temple</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple?lang=eng"
+                    target="_blank" rel="noopener">Paris France Temple</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng"
+                    target="_blank" rel="noopener">Sapporo Japan Temple</a></li>
+        </ul>
+    </main>
 
     <footer>
         <p>© 2025 ⚔️ Kayque Saldanha ⚔️ Recife, Brazil</p>
     </footer>
-
 </body>
 
 </html>
