@@ -81,6 +81,7 @@ header nav a:hover {
     text-align: center;
 }
 
+
 .hero article {
     position: absolute;
     bottom: 1rem;
@@ -89,15 +90,14 @@ header nav a:hover {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 1rem;
     border-radius: 8px;
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    align-items: center;
-    gap: 1rem;
+    overflow: auto; 
 }
 
 .hero article img {
-    width: 100%;
+    float: right;
+    width: 120px;
     border-radius: 50%;
+    margin-left: 1rem; 
 }
 
 .history, .adventure {
@@ -107,7 +107,6 @@ header nav a:hover {
     margin-bottom: 1rem;
 }
 
-/* Correção: Garante que o h2 fique acima do parágrafo */
 .history h2 {
     width: 100%;
     text-align: center;
@@ -119,10 +118,9 @@ header nav a:hover {
     margin-bottom: 1.5rem;
 }
 
-/* Correção: Aplicando o grid no container das imagens */
 .adventure-images {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 colunas para as imagens */
+    grid-template-columns: repeat(5, 1fr); 
     gap: 1rem;
 }
 
@@ -153,16 +151,20 @@ footer {
     align-items: center;
 }
 
-.sociallinks {
+.socialmedia {
     display: flex;
     gap: 1rem;
 }
 
-.sociallinks img {
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
     width: 30px;
     transition: transform 0.3s ease;
 }
 
-.sociallinks img:hover {
+.socialmedia img:hover {
     transform: scale(1.2);
 }
