@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MODIFICAÇÃO: Title e description específicos para Contact Us -->
+    <title>Contact Us – Dry Oar Rafting</title>
+    <meta name="description"
+        content="Get in touch with Dry Oar Rafting. Find our contact information, location, and send us a message about your next adventure.">
+    <meta name="author" content="Kayque Saldanha">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+    <!-- Header, nav e footer mantidos iguais conforme requisitos -->
+    <header>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SEÇÃO 1: Informações da Empresa -->
+        <section class="company-info">
+            <h1>Contact Us</h1>
+            <div class="contact-container">
+                <div class="contact-details">
+                    <h2>White Water Rafting Company</h2>
+                    <div class="contact-item">
+                        <h3>📍 Address</h3>
+                        <p>123 Main River Street
+
+                            Kolob, California
+
+                            United States</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>📞 Phone</h3>
+                        <p>+1 999 999 9999</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>✉️ Email</h3>
+                        <p><a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Mapa do Google incorporado -->
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.4037!2d-113.2!3d37.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE4JzAwLjAiTiAxMTPCsDEyJzAwLjAiVw!5e0!3m2!1sen!2sus!4v1635000000000!5m2!1sen!2sus"
+                        width="400" height="300" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="White Water Rafting Location">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: Formulário de Contato -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="user-name">Name:</label>
+                    <input type="text" id="user-name" name="user-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" name="user-email" required>
+                </div>
+
+                <div class="form-group">
+                    <fieldset>
+                        <legend>Message Purpose:</legend>
+                        <div class="radio-group">
+                            <input type="radio" id="general" name="message-purpose" value="general" required>
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="reservation" name="message-purpose" value="reservation" required>
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="website" name="message-purpose" value="website" required>
+                            <label for="website">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required
+                        placeholder="Type your message here..."></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- SEÇÃO 3: Perfis dos Funcionários -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-profiles">
+                <figure class="employee">
+                    <img src="images/employee1.jpg" alt="Sarah Johnson, Lead Guide">
+                    <figcaption>
+                        <h3>Sarah Johnson</h3>
+                        <p>Lead Guide & Safety Coordinator</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="employee">
+                    <img src="images/employee2.jpg" alt="Mike Rodriguez, Adventure Specialist">
+                    <figcaption>
+                        <h3>Mike Rodriguez</h3>
+                        <p>Adventure Specialist</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="employee">
+                    <img src="images/employee3.jpg" alt="Emma Thompson, Customer Relations Manager">
+                    <figcaption>
+                        <h3>Emma Thompson</h3>
+                        <p>Customer Relations Manager</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer mantido igual -->
+    <footer>
+        <p>© 2024 🌊 White Water Rafting | Kayque Saldanha</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
